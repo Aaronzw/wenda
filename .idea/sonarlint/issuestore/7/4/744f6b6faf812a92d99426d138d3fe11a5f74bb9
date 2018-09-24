@@ -1,13 +1,9 @@
 
-nsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(Ÿÿ¼üÿÿÿÿ8Àîá©ß,
-nsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(‡‘³ôúÿÿÿÿ8øàà©ß,
-isquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(”ý¨º8£´ï©ß,
-csquid:UselessImportCheck":Remove this unused import 'com.nowcoder.aspect.LogAspect'.(Ç–Žüÿÿÿÿÿ
-hsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(ªîúF8£´ï©ß,
-[squid:S38780"8Remove this array creation and simply pass the elements.(Ø»õöúÿÿÿÿ8Þ”Ë©ß,
-hsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(æ½€8çàõ©ß,
-nsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(¯‘°Éüÿÿÿÿ8Ž¸â©ß,
-`squid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº0
-ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(“ ‡¶þÿÿÿÿ8¸áÙ©ß,
-fsquid:S4488-"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ƒ‚êã8Þ”Ë©ß,
-nsquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(¾ÜÉŠûÿÿÿÿ8£´ï©ß,
+Ysquid:S3878"8Remove this array creation and simply pass the elements.(Ø»õöúÿÿÿÿ8Þ”Ë©ß,
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ƒ‚êã8Þ”Ë©ß,
+isquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(“ ‡¶þÿÿÿÿ8¸áÙ©ß,
+^squid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº0
+asquid:UselessImportCheck":Remove this unused import 'com.nowcoder.aspect.LogAspect'.(Ç–Žüÿÿÿÿÿ
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¼€Ó8ÂÄ°à,
+isquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ñÉø½üÿÿÿÿ8ÂÄ°à,
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(½×Ä‡8ÂÄ°à,
