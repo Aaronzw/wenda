@@ -1,5 +1,6 @@
 package com.nowcoder.service;
 
+import com.nowcoder.dao.TicketDAO;
 import com.nowcoder.dao.UserDAO;
 import com.nowcoder.model.User;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class UserService {
     @Autowired
     UserDAO userDAO;
 
+    @Autowired
+    TicketDAO ticketDAO;
     public User getUser(int id){
         return userDAO.selectById(id);
     }

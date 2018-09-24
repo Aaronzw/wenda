@@ -15,13 +15,14 @@ public class User {
         this.name = name;
     }
 
-    public User(){}
+    public User() {
+    }
 
     public User(String name) {
         this.name = name;
-        this.headUrl="";
-        this.password="";
-        this.salt="";
+        this.headUrl = "";
+        this.password = "";
+        this.salt = "";
     }
 
     public int getId() {
