@@ -24,6 +24,7 @@ public class WendaApplicationTests {
 	@Autowired
 	QuestionDAO questionDAO;
 
+	//插入假数据
 	@Test
 	public void contextLoads() {
 		Random random = new Random();
