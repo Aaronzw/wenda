@@ -10,6 +10,7 @@ import java.util.Map;
 public class WendaUtil {
     private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
 
+    public static final long EXPRIED_TIME = 1000*24*3600;
     //md5加密算法
     public static String MD5(String key) {
         char hexDigits[] = {
