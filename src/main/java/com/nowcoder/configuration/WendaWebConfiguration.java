@@ -7,16 +7,17 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-//spring配置类
+//spring配置拦截器
 @Component
-public class WendaConfiguration extends WebMvcConfigurerAdapter {
+public class WendaWebConfiguration extends WebMvcConfigurerAdapter {
     @Autowired
     PassportInterceptor passportInterceptor;
+
     @Autowired
     LoginRequiredInterceptor loginRequiredInterceptor;
 
     @Override
-    public void addInterceptors(InterceptorRegistry registry){
+    public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(passportInterceptor);
         registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("/user/*");
         super.addInterceptors(registry);
